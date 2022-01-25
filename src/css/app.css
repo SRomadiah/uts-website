@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.navbar-cta {
+  display: none;
+}
+
+.nav-link {
+  font-size: 14px;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1000px) {
+  .button-custom {
+    border: 1.5px solid #1f2937;
+    color: white;
+  }
+  .navbar-cta {
+    display: flex;
+    align-items: center;
+    padding: 8px 30px;
+    border-radius: 6px;
+    background-color: #1f2937;
+    transition: 0.4s;
+    font-size: 14px;
+  }
+  .button-custom:hover {
+    text-decoration: none;
+    color: #1f2937;
+    background-color: white;
+  }
+}
+
+.content-title {
+  max-width: 785px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+}
+
+.content-desc {
+  font-size: 16px;
+  text-align: center;
+  margin: 15px 0;
+  font-weight: 500;
+  color: #626b77;
+}
+
+.button-custom-hero {
+  border: 1.5px solid #1f2937;
+  color: white;
+}
+
+.button-custom-hero:hover {
+  text-decoration: none;
+  color: #1f2937;
+  background-color: white;
+}
+
+.hero-btn {
+  display: block;
+  max-width: 260px;
+  min-width: 110px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 30px;
+  border-radius: 6px;
+  background-color: #1f2937;
+  transition: 0.4s;
+}
+/* service html start */
+.icon-desc {
+  padding: 10px;
+}
+.icon-img {
+  width: 60px;
+  height: 60px;
+}
+/* service html end */
+
+/* about html start */
+.teams {
+  height: 320px;
+}
+.about-title {
+  font-size: 34px;
+  color: #1f2937;
+  font-weight: 700;
+}
+.about-text {
+  font-size: 16px;
+  color: #626b77;
+  font-weight: 400;
+}
+/* about html end */
